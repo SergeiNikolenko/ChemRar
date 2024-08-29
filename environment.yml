@@ -1,0 +1,25 @@
+name: chemrar-test
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - numpy
+  - pandas
+  - rdkit
+  - pytorch
+  - pytorch-lightning
+  - cudatoolkit
+  - torch-scatter
+  - torch-geometric
+  - xgboost
+  - scikit-learn
+  - imbalanced-learn
+  - scipy
+  - joblib
+  - tqdm
+  - optuna
+  - pyarrow
+  - datamol
+  - pandarallel
+  - molfeat
